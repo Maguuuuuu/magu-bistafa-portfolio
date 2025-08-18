@@ -1,11 +1,13 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
+import { Router } from './Router'
 
 function App() {
   
   return (
-    <>
-     <h1 className='bg-blue-500'>Hello world!</h1>
-    </>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
   )
 }
 
